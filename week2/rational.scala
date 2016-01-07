@@ -10,13 +10,11 @@ object rational {
   def numer = n
   def denom = d
   
-  def add(that: Rational): Rational =
+  def add(that: Rational): Rational = 
     new Rational(numer*that.denom + denom*that.numer, denom* that.denom)
-	
-	override def toString =
-		numer + " / " + denom
-	
 	def neg = new Rational(-numer, denom)
 	def sub(that: Rational) = add(that.neg)
+  override def toString =
+      numer + " / " + denom
 	}
 }
