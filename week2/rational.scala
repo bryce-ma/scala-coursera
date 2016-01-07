@@ -19,5 +19,7 @@ object rational {
     
   override def toString =
       numer + " / " + denom
-	}
+      
+  }
+	
 }
