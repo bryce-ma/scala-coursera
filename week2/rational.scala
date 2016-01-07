@@ -18,6 +18,5 @@ object rational {
 	
 	def neg = new Rational(-numer, denom)
 	def sub(that: Rational) = add(that.neg)
-	
 	}
 }
