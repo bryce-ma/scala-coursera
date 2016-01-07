@@ -13,9 +13,9 @@ object rational {
   def add(that: Rational): Rational =
     new Rational(numer*that.denom + denom*that.numer, denom* that.denom)
 
-	def neg = new Rational(-numer, denom)
+  def neg = new Rational(-numer, denom)
 
-	def sub(that: Rational) = add(that.neg)
+  def sub(that: Rational) = add(that.neg)
     
   override def toString =
       numer + " / " + denom
