@@ -1,4 +1,2 @@
 # scala-coursera
-My own practice when learn Scala programming on Coursera
-Course website is 
-    https://class.coursera.org/progfun-005
+My own practice when learn Scala programming on Coursera. Course details at https://class.coursera.org/progfun-005
